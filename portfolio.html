@@ -323,6 +323,26 @@
             </li>
           </ul>
         </div>
+
+        <form class="footer-form">
+          <label class="footer-label" for="email-foot"> Subscribe </label>
+          <div class="footer-inputs-wrap">
+            <input
+              class="footer-input"
+              type="text"
+              id="email-foot"
+              placeholder="Email"
+              required
+              pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+            />
+            <button type="submit" class="footer-btn">
+              Subscribe
+              <svg class="footer-btn-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-footer-btn"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>
