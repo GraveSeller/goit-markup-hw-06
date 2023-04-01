@@ -277,7 +277,7 @@
 
       <!-- /Third Row -->
     </main>
-   <footer class="footer">
+    <footer class="footer">
       <div class="footer-container container">
         <div class="footer-elements-container">
           <a href="./index.html" class="footer-logo link"
@@ -325,13 +325,15 @@
         </div>
 
         <form class="footer-form">
-          <label class="footer-label" for="email-foot"> Subscribe </label>
+          <bold class="footer-label"> Subscribe </bold>
           <div class="footer-inputs-wrap">
             <input
               class="footer-input"
               type="text"
               id="email-foot"
               placeholder="Email"
+              required
+              pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
             />
             <button type="submit" class="footer-btn">
               Subscribe
